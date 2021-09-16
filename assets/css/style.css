@@ -510,7 +510,10 @@ span {
     padding-top: 200px;
     animation: bounceTop-1 3s ease infinite;
 }
+.botonheader{
+    height: 60px;
 
+}
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
     .header-image img {
@@ -532,6 +535,13 @@ span {
     }
     .header-hero-content {
        margin-left: 4%;
+    }
+    .botonheader{
+        width: 150px;
+    
+    }
+    .main-btn {
+        padding: 0 16px;
     }
 }
 
