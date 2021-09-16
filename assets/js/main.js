@@ -33,3 +33,14 @@ $(function () {
     //   scrollit js
     $.scrollIt();
 });
+
+window.
+onload
+= function() {
+  Particles.
+init
+({
+    selector: 
+'.background'
+  });
+}

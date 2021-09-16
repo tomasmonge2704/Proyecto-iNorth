@@ -451,11 +451,14 @@ span {
 .header-hero-content {
     position: relative;
 }
-
+.header-hero-content {
+    margin-top: 2%;
+    margin-left: -25%;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
     .header-hero-content {
-        margin-top: 30%;
+        margin-top: 55%;
     }
 }
 
@@ -504,7 +507,7 @@ span {
 
 .header-image {
     position: relative;
-    padding-top: 80px;
+    padding-top: 200px;
     animation: bounceTop-1 3s ease infinite;
 }
 
@@ -513,6 +516,7 @@ span {
     .header-image img {
         height: 366px;
         margin-left: 85px;
+        
     }
     .header-image{
         padding-top: 50px;
@@ -525,6 +529,9 @@ span {
     }
     #titulo {
         margin-top: -62px;
+    }
+    .header-hero-content {
+       margin-left: 4%;
     }
 }
 
@@ -1084,14 +1091,36 @@ span {
     font-size: 20px;
     font-weight: 500;
 }
-
+.cardPrecios{
+    width: 24%;
+} 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
     .footer-contact {
         padding-top: 30px;
     }
+    .cardPrecios{
+       width: 50%; 
+       margin-bottom: 10px;
+    }
+    .cardPrecios td{
+     padding: 0;
+     margin-left: 0;
+    }
+    .single-pricing {
+        padding: 18px 6px 10px;
+    }
+   .w33{
+       width: 33%;
+       
+   }
+   .feature-section .single-feature{
+    padding: 0;
+   }
+   .feature-section .single-feature h3{
+       font-size: 19px;
+   }
 }
-
 .footer-contact .contact-list li .contact-info .info-content .text a {
     color: #747e88;
     transition: all .3s ease-out 0s;
@@ -1113,4 +1142,8 @@ span {
 
 #marginPrecios{
     margin-bottom: 15px;
+}
+
+.footer-contact .mt-45 {
+    width: 100%;
 }
