@@ -333,6 +333,7 @@ span {
 .navbar-nav .nav-item {
     position: relative;
     margin-left: 40px;
+    padding-bottom: 20px;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -452,8 +453,11 @@ span {
     position: relative;
 }
 .header-hero-content {
-    margin-top: 2%;
+    margin-bottom: 21%;
     margin-left: -25%;
+}
+#tituloIcono{
+    font-size: 18px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
@@ -518,6 +522,15 @@ span {
 #tituloPrincipal{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+#titulo {
+    margin-top: 20%;
+}
+.titulo20px{
+font-size: 20px;
+}
+.iconos{
+    margin-left: -21%;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
     .header-image img {
@@ -535,8 +548,12 @@ span {
         background: none;
     }
     #titulo {
-        margin-top: -62px;
+        margin-top: -80px;
     }
+    .iconos {
+        margin-left: 0%;
+    }
+   
     .header-hero-content {
        margin-left: 4%;
     }
@@ -581,9 +598,9 @@ span {
 /* --------- feature css ---------- */
 
 .feature-section .single-feature {
-    padding: 30px;
+    padding-top: 30px;
     text-align: center;
-    box-shadow: 0 15px 17px 0 rgb(154 154 154 / 16%);
+    
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -636,7 +653,7 @@ span {
 
 .feature-section .single-feature .content h3 {
     font-weight: 600;
-    margin-bottom: 25px;
+    
 }
 
 
@@ -831,7 +848,8 @@ span {
 
 .single-pricing {
     padding: 25px 30px 30px;
-    box-shadow: 0 0 11px 0 rgb(154 154 154 / 16%);
+    box-shadow: 0px 0px 27px -8px rgb(0 0 0 / 17%);
+    border-radius: 20px;
 }
 
 .single-pricing .pricing-title .title {
@@ -1107,6 +1125,7 @@ span {
 }
 .cardPrecios{
     width: 24%;
+    margin-bottom:26px;
 } 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
@@ -1134,6 +1153,9 @@ span {
    .feature-section .single-feature h3{
        font-size: 19px;
    }
+   #textoIconos{
+    font-size: 15px;
+    }
 }
 .footer-contact .contact-list li .contact-info .info-content .text a {
     color: #747e88;
@@ -1160,4 +1182,7 @@ span {
 
 .footer-contact .mt-45 {
     width: 100%;
+}
+.h36 {
+    height: 36px;
 }
