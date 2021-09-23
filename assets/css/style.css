@@ -9,7 +9,10 @@ body {
     font-style: normal;
     color: #747e74;
     overflow-x: hidden;
+    background:url(../img/y-so-serious-white.png) ;
 }
+  
+
 
 * {
     margin: 0;
@@ -60,6 +63,7 @@ span {
     display: contents;
     color: #001847;
 }
+
 
 /* ------------ all button css ---------- */
 
@@ -381,7 +385,8 @@ span {
     position: relative;
     top: 0;
     height: 800px;
-    background-position: bottom center;
+    
+   
 }
 
 .header-hero .shape {
@@ -522,9 +527,7 @@ span {
 #tituloPrincipal{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
-#titulo {
-    margin-top: 20%;
-}
+
 .titulo20px{
 font-size: 20px;
 }
@@ -733,7 +736,7 @@ font-size: 20px;
 /* --------- Testimonial css ---------- */
 
 .testimonial-section {
-    margin-top: 100px;
+    
     padding: 100px 0;
     background-color: #001846;
 }
@@ -848,8 +851,9 @@ font-size: 20px;
 
 .single-pricing {
     padding: 25px 30px 30px;
-    box-shadow: 0px 0px 27px -8px rgb(0 0 0 / 17%);
+    box-shadow: 0px 1px 27px 4px rgb(0 0 0 / 17%);
     border-radius: 20px;
+    background: #fff;
 }
 
 .single-pricing .pricing-title .title {
@@ -1127,8 +1131,19 @@ font-size: 20px;
     width: 24%;
     margin-bottom:26px;
 } 
+.lineasInorth img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
+    .lineasInorth img{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 0%;
+    }
     .footer-contact {
         padding-top: 30px;
     }
@@ -1177,7 +1192,7 @@ font-size: 20px;
 }
 
 #marginPrecios{
-    margin-bottom: 15px;
+    padding-bottom: 75px;
 }
 
 .footer-contact .mt-45 {
@@ -1186,3 +1201,4 @@ font-size: 20px;
 .h36 {
     height: 36px;
 }
+
