@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>iNorth</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
   <!-- -------- anime css ------ -->
   <link rel="stylesheet" href="assets/css/animate.css">
   <!-- --------- tiny slider css ------ -->
@@ -20,9 +22,7 @@
   <!-- ---------- default css --------- -->
   <link rel="stylesheet" href="assets/css/default.css">
   <!-- --- style css -->
-  
   <link rel="stylesheet" href="assets/css/style.css">
-  
   <link rel="stylesheet" href="assets/css/floating-wpp.min.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
   <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
@@ -30,7 +30,7 @@
 
 <body>
    <!-- --------- icono wpp------------ -->
-  <div id="myDiv"></div>
+  <div id="myDiv" ></div>
 
   <!-- --------- preloader ------------ -->
   <div class="preloader">
@@ -76,15 +76,15 @@
                   <a class="nav-link" data-scroll-nav="1" href="#precios">Precios</a>
                 </li>
                
-                <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="3" href="#comentarios">Comentarios</a>
-                </li>
+                
                 <li class="nav-item">
                   <a class="nav-link" data-scroll-nav="4" href="#preguntas">Preguntas</a>
                 </li>
                 
                 <li class="nav-item">
-                  <button type="button" class="btn btn-success" > <i class="fab fa-whatsapp"></i> Consultar por Whatsapp</button>
+                  <a href="https://api.whatsapp.com/send?phone=5491173631586">
+                    <button type="button" class="btn btn-success"  > <i class="fab fa-whatsapp"></i> Consultar por Whatsapp</button>
+                  </a>  
                 </li>
 
 
@@ -102,7 +102,7 @@
     <div class="header-hero" data-scroll-index="0" id="home">
       <!---- home star ------>
      
-      <div class="container">
+      <div class="container home-responsive">
         <div class="row align-items-center justify-content-center justify-content-lg-between">
           <div id="titulo" class="col-lg-6 col-md-10">
             <div class="header-hero-content">
@@ -191,7 +191,9 @@
     <div class="row justify-content-center  " id="marginPrecios">
       <div class="col-lg-4 col-md-7 col-sm-9 cardPrecios" >
         <div class="single-pricing text-center wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.2s">
-          <div class="pricing-title">
+          <div class="pricin
+          
+          title">
             <h4 class="title">iPhone 5/5S/SE</h4>
           </div>
           <div class="pricing-price">
@@ -205,17 +207,23 @@
                   <td>Pantalla </td>
                   <td>$7.000</td>
                   </tr>
-                  
-                  
+
                   <tr>
                     <td>Batería </td>
-                    <td>$5.500</td>
+                    <td>$5.500/SE $6.500 </td>
                     </tr>
                     <tr>
                     <td>Placa	</td>
                       <td>$8.500</td>
                     </tr>
-                   
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$5.500</td>
+                    </tr>
+                    <tr>
+                      <td>Botón home</td>
+                      <td>$5.500</td>
+                    </tr>
               </tbody>
             </table>
           </div>
@@ -242,13 +250,20 @@
                   
                   <tr>
                     <td>Batería </td>
-                    <td>$6.500</td>
+                    <td>$6.800</td>
                     </tr>
                     <tr>
                     <td>Placa	</td>
                       <td>$9.000</td>
                     </tr>
-
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$5.900</td>
+                    </tr>
+                    <tr>
+                      <td>Botón home</td>
+                      <td>$5.900</td>
+                    </tr>
               </tbody>
             </table>
           </div>
@@ -269,7 +284,7 @@
               <tbody>
                 <tr>
                   <td>Pantalla </td>
-                  <td>$9.000</td>
+                  <td>$9.500</td>
                   </tr>
                   
                   
@@ -280,6 +295,14 @@
                     <tr>
                     <td>Placa	</td>
                       <td>$9.000</td>
+                    </tr>
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$6.500</td>
+                    </tr>
+                    <tr>
+                      <td>Botón home</td>
+                      <td>$5.900</td>
                     </tr>
               </tbody>
             </table>
@@ -313,6 +336,14 @@
                   <tr>
                   <td>Placa	</td>
                     <td>$9.500</td>
+                  </tr>
+                  <tr>
+                    <td>Puerto de carga</td>
+                    <td>$6.000</td>
+                  </tr>
+                  <tr>
+                    <td>Botón home</td>
+                    <td>$5.500</td>
                   </tr>
             </tbody>
           </table>
@@ -348,6 +379,14 @@
                     <td>Placa	</td>
                       <td>$10.000</td>
                     </tr>
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$6.500</td>
+                    </tr>
+                    <tr>
+                      <td>Botón home</td>
+                      <td>$5.900</td>
+                    </tr>
               </tbody>
             </table>
           </div>
@@ -380,6 +419,14 @@
                     <td>Placa	</td>
                       <td>$10.500</td>
                     </tr>
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$6.500</td>
+                    </tr>
+                    <tr>
+                      <td>Botón home</td>
+                      <td>$6.500</td>
+                    </tr>
               </tbody>
             </table>
           </div>
@@ -392,7 +439,7 @@
             <h4 class="title">iPhone 7 Plus</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-7.jpg" alt="">
+           <img src="assets/img/iphone-7plus.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -400,7 +447,7 @@
               <tbody>
                 <tr>
                   <td>Pantalla </td>
-                  <td>$10.500</td>
+                  <td>$11.000</td>
                   </tr>
                   
                   
@@ -411,6 +458,14 @@
                     <tr>
                     <td>Placa	</td>
                       <td>$11.000</td>
+                    </tr>
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$6.500</td>
+                    </tr>
+                    <tr>
+                      <td>Botón home</td>
+                      <td>$6.500</td>
                     </tr>
               </tbody>
             </table>
@@ -424,7 +479,7 @@
             <h4 class="title">iPhone 8</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-7.jpg" alt="">
+           <img src="assets/img/iphone-8.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -447,6 +502,14 @@
                     <td>Vidrio Trasero	</td>
                       <td>$10.000</td>
                     </tr>
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$7.300</td>
+                    </tr>
+                    <tr>
+                      <td>Botón home</td>
+                      <td>$6.500</td>
+                    </tr>
               </tbody>
             </table>
           </div>
@@ -459,7 +522,7 @@
             <h4 class="title">iPhone 8 Plus</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-7.jpg" alt="">
+           <img src="assets/img/iphone-8plus.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -482,6 +545,14 @@
                     <td>Vidrio Trasero	</td>
                       <td>$11.000</td>
                     </tr>
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$6.500</td>
+                    </tr>
+                    <tr>
+                      <td>Botón home</td>
+                      <td>$7.500</td>
+                    </tr>
               </tbody>
             </table>
           </div>
@@ -495,7 +566,7 @@
             <h4 class="title">iPhone X</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-6s-plus.jpg" alt="">
+           <img src="assets/img/iphone-x.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -503,7 +574,7 @@
               <tbody>
                 <tr>
                   <td>Pantalla </td>
-                  <td>$24.000</td>
+                  <td>$26.000</td>
                   </tr>
                   
                   
@@ -518,6 +589,11 @@
                     <td>Vidrio Trasero	</td>
                     <td>$11.500</td>
                   </tr>
+                  <tr>
+                    <td>Puerto de carga</td>
+                    <td>$8.500</td>
+                  </tr>
+                  
               </tbody>
             </table>
           </div>
@@ -530,7 +606,7 @@
             <h4 class="title">iPhone XR</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-7.jpg" alt="">
+           <img src="assets/img/iphone-xr.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -538,7 +614,7 @@
               <tbody>
                 <tr>
                   <td>Pantalla </td>
-                  <td>$20.000</td>
+                  <td>$21.500</td>
                   </tr>
                   
                   
@@ -549,6 +625,10 @@
                     <tr>
                     <td>Placa	</td>
                       <td>$22.000</td>
+                    </tr>
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$8.500</td>
                     </tr>
               </tbody>
             </table>
@@ -563,7 +643,7 @@
             <h4 class="title">iPhone XS</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-7.jpg" alt="">
+           <img src="assets/img/iphone-xs.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -571,7 +651,7 @@
               <tbody>
                 <tr>
                   <td>Pantalla </td>
-                  <td>$24.000</td>
+                  <td>$30.000</td>
                   </tr>
                   
                   
@@ -586,6 +666,10 @@
                     <td>Vidrio Trasero	</td>
                       <td>$12.000</td>
                     </tr>
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$8.500</td>
+                    </tr>
               </tbody>
             </table>
           </div>
@@ -598,7 +682,7 @@
             <h4 class="title">iPhone 11</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-7.jpg" alt="">
+           <img src="assets/img/iphone-11-1.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -606,7 +690,7 @@
               <tbody>
                 <tr>
                   <td>Pantalla </td>
-                  <td>$30.000</td>
+                  <td>$32.640</td>
                   </tr>
                   
                   
@@ -621,6 +705,10 @@
                     <td>Vidrio Trasero	</td>
                       <td>$14.500</td>
                     </tr>
+                    <tr>
+                      <td>Puerto de carga</td>
+                      <td>$8.500</td>
+                    </tr>
               </tbody>
             </table>
           </div>
@@ -633,7 +721,7 @@
             <h4 class="title">iPhone 11 Pro</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-7.jpg" alt="">
+           <img src="assets/img/iphone-11-pro.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -641,7 +729,7 @@
               <tbody>
                 <tr>
                   <td>Pantalla </td>
-                  <td>$40.000</td>
+                  <td>$45.000</td>
                   </tr>
                   
                   
@@ -668,7 +756,7 @@
             <h4 class="title">iPhone 11 Pro Max</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-7.jpg" alt="">
+           <img src="assets/img/iphone11promax.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -676,7 +764,7 @@
               <tbody>
                 <tr>
                   <td>Pantalla </td>
-                  <td>$60.000</td>
+                  <td>$76.900</td>
                   </tr>
                   
                   
@@ -703,7 +791,7 @@
             <h4 class="title">iPhone 12 Mini</h4>
           </div>
           <div class="pricing-price">
-           <img src="assets/img/iphone-7.jpg" alt="">
+           <img src="assets/img/iphone-12-mini.jpg" alt="">
           </div>
           <div class="pricing-list">
             <table class="table table-hover">
@@ -723,73 +811,116 @@
           
         </div>
       </div>
+      <div class="col-lg-4 col-md-7 col-sm-9 cardPrecios">
+        <div class="single-pricing text-center wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.2s">
+          <div class="pricing-title">
+            <h4 class="title">iPhone 12</h4>
+          </div>
+          <div class="pricing-price">
+           <img src="assets/img/iphone12.jpg" alt="">
+          </div>
+          <div class="pricing-list">
+            <table class="table table-hover">
+             
+              <tbody>
+                <tr>
+                  <td>Pantalla </td>
+                  <td>$90.000</td>
+                  </tr>
+
+                    <td>Vidrio Trasero	</td>
+                      <td>$17.500</td>
+                    </tr>
+              </tbody>
+            </table>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-7 col-sm-9 cardPrecios">
+        <div class="single-pricing text-center wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.2s">
+          <div class="pricing-title">
+            <h4 class="title">iPhone 12 Pro</h4>
+          </div>
+          <div class="pricing-price">
+           <img src="assets/img/iphone12pro.jpg" alt="">
+          </div>
+          <div class="pricing-list">
+            <table class="table table-hover">
+             
+              <tbody>
+                <tr>
+                  <td>Pantalla </td>
+                  <td>$98.600</td>
+                  </tr>
+
+                    <td>Vidrio Trasero	</td>
+                      <td>$18.000</td>
+                    </tr>
+              </tbody>
+            </table>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-7 col-sm-9 cardPrecios">
+        <div class="single-pricing text-center wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.2s">
+          <div class="pricing-title">
+            <h4 class="title">iPhone 12 Pro Max</h4>
+          </div>
+          <div class="pricing-price">
+           <img src="assets/img/iphone12promax.jpg" alt="">
+          </div>
+          <div class="pricing-list">
+            <table class="table table-hover">
+             
+              <tbody>
+                <tr>
+                  <td>Pantalla </td>
+                  <td>$100.000</td>
+                  </tr>
+
+                    <td>Vidrio Trasero	</td>
+                      <td>$19.000</td>
+                    </tr>
+              </tbody>
+            </table>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-7 col-sm-9 cardPrecios">
+        <div class="single-pricing text-center wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.2s">
+          <div class="pricing-title">
+            <h4 class="title">iPhone SE 2020</h4>
+          </div>
+          <div class="pricing-price">
+           <img src="assets/img/iphone-se.png" alt="">
+          </div>
+          <div class="pricing-list">
+            <table class="table table-hover">
+             
+              <tbody>
+                <tr>
+                  <td>Bateria </td>
+                  <td>$9.500</td>
+                  
+              </tbody>
+            </table>
+          </div>
+          
+        </div>
+      </div>
     </div>
   </div>
 </div>
 <!-- --------------pricing section end ------------ -->
 
- 
-<!-- ----------- Testimonial Section Start ------- -->
-<section class="testimonial-section" data-scroll-index="3" id="comentarios">
-  <div class="container">
-    <div class="row justify-content-center testimonial-active-wrapper">
-      <div class="col-xl-6 col-lg-7">
-        <div class="section-title text-center mb-60">
-          <h1 class="mb-25 text-white wow fadeInUp" data-wow-delay=".2s">Experiencias de nuestros clientes</h1>
-          
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-xl-7 col-lg-8">
-          <div class="testimonial-active">
-            <div class="testimonial-wrapper">
-              <div class="single-testimonial">
-                <div class="info">
-                  <div class="image-2">
-                    <img src="assets/img/testemonial/test-1.jpg" alt="">
-                  </div>
-                  <h4>John Deo</h4>
-                  <p>roduct Design</p>
-                  <div class="quote">
-                    <i class="fas fa-quote-right"></i>
-                  </div>
-                  <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae officia minus
-                      voluptatibus veritatis unde, asperiores laboriosam tempore voluptates debitis.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-wrapper">
-              <div class="single-testimonial">
-                <div class="info">
-                  <div class="image-2">
-                    <img src="assets/img/testemonial/test-2.jpg" alt="">
-                  </div>
-                  <h4>John Deo</h4>
-                  <p>roduct Design</p>
-                  <div class="quote">
-                    <i class="fas fa-quote-right"></i>
-                  </div>
-                  <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae officia minus
-                      voluptatibus veritatis unde, asperiores laboriosam tempore voluptates debitis.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
-<!-- ----------- Testimonial Section End ------- -->
-  
-  
-
-  
+  <div class="testimonial-active">   
+  </div>
+                
   <!-- ----------- FAQ Section Start --------- -->
-  <section class="faq-section pt-120" data-scroll-index="4" id="preguntas">
+  <section class="faq-section " data-scroll-index="4" id="preguntas">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-6 col-lg-7">
@@ -805,14 +936,18 @@
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne">
-                    Cuando es necesario cambiar la bateria?
+                    Donde están ubicados?
                   </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, alias corrupti similique fugit
-                    commodi deserunt praesentium nisi expedita voluptatum dolores.
+                    Tenemos nuestra oficina comercial ubicada en Olivos, <a href="https://api.whatsapp.com/send?phone=5491173631586">
+                      <i class="fab fa-whatsapp"></i>Consultar por Whatsapp
+                    </a>  para reservar tu turno!
+En caso de que estés muy lejos y no tengas como venir podemos 
+ofrecerte nuestro servicio de Puerta a Puerta.
+
                   </div>
                 </div>
               </div>
@@ -820,14 +955,15 @@
                 <h2 class="accordion-header" id="headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Insertar pregunta?
+                    Como funciona el servicio Puerta a Puerta?
                   </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta labore veniam ipsam dolore illo
-                    pariatur maiores neque debitis consectetur fugit?
+                    Nuestro servicio puerta a puerta es muy simple; retiramos el equipo del cliente en un día y horario acordado, reparamos el equipo en nuestra oficina comercial en Olivos,  y luego se devuelve a la casa del cliente reparado! Los costos de esta opción pueden varias dependiendo de la zona. <a href="https://api.whatsapp.com/send?phone=5491173631586">
+                      <i class="fab fa-whatsapp"></i>Consultar por Whatsapp
+                    </a> para consultar costos de envío.
                   </div>
                 </div>
               </div>
@@ -835,14 +971,27 @@
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Insertar pregunta?
+                    Cuanto tardan en reparar mi iPhone?
                   </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla possimus excepturi quas natus
-                    animi laudantium nihil ea ipsam reprehenderit?
+                    Cambiamos la bateria y pantalla de tu iPhone Pantalla 60 minutos! Los demás arreglos pueden demorar entre 48hs y  72hs!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Ofrecen garantia en los arreglos?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Si. Todos nuestros arreglos cuentan con una garantía escrita por 3 meses!
                   </div>
                 </div>
               </div>
@@ -861,17 +1010,12 @@
       <div class="container">
         <div class="row">
           <div  class="col-lg-4 col-md-6" id="w100">
-            <div class="footer-about mt-50">
+            <div class="footer-about ">
               <a href="" class="logo">
                 <img src="assets/img/header/logo/landapp-logo.png" alt="">
               </a>
               
-              <ul class="social">
-                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-              </ul>
+              
             </div>
           </div>
           
@@ -884,35 +1028,31 @@
                 <li>
                   <div class="contact-info">
                     <div class="info-content media-body">
-                      <p class="text"><i class="fas fa-phone-alt"></i>
-                        +809272561823 </p>
+                      <p class="text"> <a href="https://api.whatsapp.com/send?phone=5491173631586
+                        "><i class="fas fa-phone-alt"></i>
+                        +54 91173631586 </a> </p>
                     </div>
                   </div>
                 </li>
-                <li>
-                  <div class="contact-info">
-                    <div class="info-content media-body">
-                      <p class="text"><a href=""><i class="far fa-envelope"></i>
-                          landapp@gmail.com </a></p>
-                    </div>
-                  </div>
-                </li>
+                
                 <li>
                   <div class="contact-info">
                     <div class="info-content media-body">
                       <p class="text"><a href=""><i class="fas fa-globe"></i>
-                          www.landapp.com </a></p>
+                          www.inorth.com.ar </a></p>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div class="contact-info">
                     <div class="info-content media-body">
-                      <p class="text"><i class="fas fa-map-marker-alt"></i>
-                        123 stree now york city, united states of america 750 </p>
+                      <p class="text"><a href="https://instagram.com/inorth.arg?utm_medium=copy_link
+                        "><i class="fab fa-instagram"></i>
+                        Inorth.arg </a></p>
                     </div>
                   </div>
                 </li>
+                
               </ul>
             </div>
           </div>
