@@ -69,10 +69,7 @@ console.log(productos);
             <table class="table table-hover">
             
             <tbody id="tbody${contador}">
-                <tr>
-                <td>${element.pantalla}</td>
-                <td>$${element.precioPantalla}</td>
-                </tr>
+                
             </tbody>
             </table>
         </div>
@@ -81,6 +78,14 @@ console.log(productos);
         </div>
 
         `);
+        if (element.pantalla){
+            $("#tbody" + contador).append(`
+            <tr>
+                <td>${element.pantalla}</td>
+                <td>$${element.precioPantalla}</td>
+                </tr>
+            `);
+        }
         if (element.bateria){
             $("#tbody" + contador).append(`
             <tr>
