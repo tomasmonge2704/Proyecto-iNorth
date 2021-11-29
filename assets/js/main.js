@@ -19,17 +19,7 @@ $(function () {
     // wow js
     new WOW().init();
 
-    // tiny slider
-    var slider = tns({
-        container: '.testimonial-active',
-        items: 1,
-        slideBy: 'page',
-        autoplay: false,
-        mouseDrag: true,
-        nav: false,
-        controlsText: ['<i class="fas fa-angle-left prev"></i>', '<i class="fas fa-angle-right next"></i>'],
-    });
-
+    
     //   scrollit js
     $.scrollIt();
 });
@@ -37,8 +27,7 @@ $(function () {
 window.
 onload
 = function() {
-  Particles.
-init
+  
 ({
     selector: 
 '.background'
